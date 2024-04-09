@@ -1,0 +1,10 @@
+<div class="chats-list-container">
+    <div class="chats-list-container__top">
+        {{> TopContainer name="go to home" }}
+    </div>
+    <div class="chats-list-container__bottom">
+        {{#each (itemPeople)}}
+        {{> ChatCard }}
+        {{/each}}
+    </div>
+</div>

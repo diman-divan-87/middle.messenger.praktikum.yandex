@@ -1,0 +1,25 @@
+<div class="profile-container">
+    <div class="profile-avatar">{{> Avatar img='/src/assets/02.jpg' }}</div>
+    <div class="profile-name">Иван</div>
+    <Form class="profile-form">
+        <div class="profile-info-block">
+            <div class="profile-text-block">
+                <div class="profile-text-block__title">Старый пароль</div>
+                <input class="profile-input" name="oldPassword" placeholder="Введите пароль" />
+            </div>
+            <div class="profile-text-block">
+                <div class="profile-text-block__title">Новый пароль</div>
+                <input class="profile-input" name="newPassword" placeholder="Введите пароль" />
+            </div>
+            <div class="profile-text-block">
+                <div class="profile-text-block__title">Повторите новый пароль</div>
+                <input class="profile-input" name="newPassword" placeholder="Введите пароль" />
+            </div>
+        </div>
+
+        <div class="profile-info-save">
+            {{> Button label="Сохранить" type="primary" }}
+        </div>
+
+    </Form>
+</div>

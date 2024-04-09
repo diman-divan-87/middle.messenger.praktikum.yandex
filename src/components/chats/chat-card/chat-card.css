@@ -1,0 +1,63 @@
+.card {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-family: Inter;
+    padding: 12px 10px;
+    position: relative;
+    margin: 0 10px;
+    border-bottom: 1px solid #EFEFEF;
+    box-sizing: border-box;
+}
+
+.card_active {
+    background-color: var(--second-color);
+}
+
+.card-avatar {
+    width: 47px;
+    height: 47px;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid #EFEFEF;
+}
+
+.card-message {
+    flex-grow: 2;
+    padding: 0 10px;
+}
+
+.card-attr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.card-name {
+    color: #1E1E1E;
+    font-weight: 600;
+}
+
+.card-last-message {
+    margin-top: 4px;
+    color: #999999;
+    font-weight: 500;
+}
+
+.card-date {
+    font-size: 9px;
+    color: #999999;
+}
+
+.card-notifications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+    background-color: #3369F3;
+    color: #fff;
+    border-radius: 15px;
+}

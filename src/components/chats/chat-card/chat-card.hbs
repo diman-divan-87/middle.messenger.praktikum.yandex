@@ -1,0 +1,11 @@
+<div class="card {{#if active}}card_active{{/if}}">
+    <div class="card-avatar">{{> Avatar img=img }}</div>
+    <div class="card-message">
+        <div class="card-name">{{ name }} </div>
+        <div class="card-last-message">{{ lastMessage }} </div>
+    </div>
+    <div class="card-attr">
+        <div class="card-date">{{ date }} </div>
+        <div class="card-notifications">{{ notifications }} </div>
+    </div>
+</div>
