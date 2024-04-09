@@ -7,7 +7,7 @@ import ava from '../../../../src/assets/01.jpg'
 import menu from '../../../../src/assets/icons/menu.svg'
 
 Handlebars.registerHelper("img_ava", function () {
-    return ava;
+    return [{img: ava}];
 });
 
 Handlebars.registerHelper("img_menu", function () {

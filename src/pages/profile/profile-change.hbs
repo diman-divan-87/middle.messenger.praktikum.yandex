@@ -1,5 +1,9 @@
 <div class="profile-container">
-    <div class="profile-avatar">{{> Avatar img='/src/assets/02.jpg' }}</div>
+    <div class="profile-avatar">
+        {{#each (img_ava)}}
+        {{> Avatar }}
+        {{/each}}
+    </div>
     <div class="profile-name">Иван</div>
     <Form class="profile-form">
         <div class="profile-info-block">

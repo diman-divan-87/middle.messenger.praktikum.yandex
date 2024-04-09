@@ -1,3 +1,10 @@
+ссылка на гит: https://github.com/diman-divan-87/middle.messenger.praktikum.yandex
+ссылка на netlify: https://timely-cascaron-974a2e.netlify.app/
+версия node v16.16.0
+
+проект запускается командой npm ran dev
+сборка проекта командой npm run start
+
 ## Первый спринт
 
 Были созданы следующие страницы:
@@ -11,16 +18,6 @@ NotPage404
 NotPage500
 
 Доступ ко всем страницам осуществляется с главного экрана
-
-ссылка на гит: https://github.com/diman-divan-87/middle.messenger.praktikum.yandex
-ссылка на netlify: https://timely-cascaron-974a2e.netlify.app/
-
-проект запускается командой npm ran dev
-сборка проекта командой npm run build
-
-# Важно
-
-Express-сервер не настроен, так как куратор сказал, что этим мы займемся во втором модуле
 
 # Описание страниц
 
