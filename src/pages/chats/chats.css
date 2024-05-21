@@ -1,0 +1,11 @@
+.chat-container {
+    display: flex;
+}
+
+.chat-container--left-block {
+    width: 310px;
+}
+
+.chat-container--right-block {
+    width: calc(100% - 310px);
+}

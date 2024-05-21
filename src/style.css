@@ -1,0 +1,81 @@
+:root {
+  --main-color: #3369f3;
+  --second-color: #e4edfd;
+  --error-color: #ff2f2f;
+  --text-color: #1e1e1e;
+  --text-secondary-color: #999;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('./assets/fonts/Inter-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('./assets/fonts/Inter-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('./assets/fonts/Inter-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('./assets/fonts/Inter-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('./assets/fonts/Inter-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('./assets/fonts/Inter-Black.ttf');
+  font-weight: 900;
+  font-style: normal;
+}
+
+button {
+  font-family: Inter;
+}
+
+
+.tooltip {
+  display: none;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.tooltip.tooltip_active {
+  display: block;
+  position: absolute;
+}
+
+.left_bottom {
+position: fixed;
+bottom: 5px;
+left: 0;
+}

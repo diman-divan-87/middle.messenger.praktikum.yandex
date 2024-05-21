@@ -1,0 +1,92 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    font-family: Inter;
+}
+
+.profile-block {
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-info-block {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.profile-text-block:last-child {
+    border: none;
+}
+
+.profile-avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 80px;
+    border: 1px solid #EFEFEF;
+    overflow: hidden;
+}
+
+.profile-name {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.profile-text-block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.profile-text-block__title {
+    color: #1E1E1E;
+    font-size: 13px;
+}
+
+.profile-text-block__item {
+    color: #999999;
+    font-size: 13px;
+}
+
+.profile-info-save {
+    margin-top: 70px;
+    width: 240px;
+}
+
+.profile-input {
+    border: none;
+}
+
+.profile-input:focus-visible {
+    outline: none;
+}
+
+.profile-text-block__btn {
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.profile-text-block__btn--change {
+    color: #3369F3;
+}
+
+.profile-text-block__btn--exit{
+    color: #FF0000;
+}
+
+.profile-form {
+    width: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
