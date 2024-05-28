@@ -1,0 +1,19 @@
+.input-message {
+    font-family: Inter;
+    width: 100%;
+}
+
+.input-message__element{
+    height: 32px;
+    width: 100%;
+    border: none;
+    background: #EFEFEF;
+    padding: 0 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+.input-message__element:focus-visible {
+    outline: none;
+}

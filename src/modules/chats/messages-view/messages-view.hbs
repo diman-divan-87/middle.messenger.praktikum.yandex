@@ -3,6 +3,13 @@
         {{> ChatHeader }}
     </div>
     <div class="messages-view-container__main">
-        здесь будет чат
+        <div class="messages-view-container__date">01.01.2024</div>
+        <div class="messages-view-container__feed">
+            {{> incomingMessage }}
+            {{> OutgoingMessage }}
+        </div>
+    </div>
+    <div class="messages-view-container__sending-message">
+        {{> SendingMessage }}
     </div>
 </div>
